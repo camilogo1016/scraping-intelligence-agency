@@ -3,7 +3,7 @@ let = $accordion = document.getElementById("accordion");
 let ciaData = null;
 
 fetch(
-  "https://app.scrapinghub.com/api/v2/datasets/kdybI1E79Ww/download?format=json"
+  "https://storage.scrapinghub.com/items/487461/1/1?apikey=93af0c0461cb470c8f298a317a5b1fa0&format=json&saveas=items_cia_1.json"
 )
   .then((response) => {
     return response.json();
